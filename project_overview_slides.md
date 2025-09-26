@@ -1,92 +1,102 @@
-# Digital Economy Navigator – Project Overview
+# Digital Economy Navigator: Project Overview
 
----
-
-## Slide 1 – Digital Economy Navigator: Project Overview
+## Slide 1: Project Overview
 **Digital Economy Navigator**  
 *Project Overview*
 
 ---
 
-## Slide 2 – MVP Deliverables
-- **Indicator framework** (Responsible: Oxford team)  
-- **Clickable Prototype** (Responsible: Oxford team)  
-- **Data Architecture & Management**  
-- **Web Based Platform Development**  
-- **AI chatbot: AI-Enhanced User Experience**  
-  - A source-grounded, natural language conversational interface using RAG (Retrieval-Augmented Generation), etc.  
+## Slide 2: Minimum Viable Product (MVP) Deliverables
 
-**Indicator framework enabler and outcome:**  
-Supposed to be narrower and deeper than:  
-[https://digitaldevelopmentcompass.undp.org/country/NER](https://digitaldevelopmentcompass.undp.org/country/NER)
+### Oxford Insight (Research Partner)
+- **Comprehensive Indicator Framework with Validated Data Sources**
+- **Interactive Clickable Prototype**
 
----
-
-## Slide 3 – Target Users
-- **IO’s/UN:** UNCTAD, ODET, ITU, UNDP, ITC, UNDCO  
-- **Member States:** shared previously  
-- **Industry Associations:** GSMA  
-- **Private sector:** IBM, Huawei, AIM Global Community  
-- **Academic:** BIT, WU Vienna, others  
-
-*Leverage pre-existing user groups from OI: INCIT, WEF*  
-
-> It’s supposed to be useful to the UN at large.  
+### Implementation Partner (Technical Development)
+- **Data Architecture & Management System**
+- **Web-based Platform Development**
+- **AI-Enhanced User Experience (Chatbot)**
+  - Source-grounded conversational interface utilizing RAG (Retrieval-Augmented Generation) technology
 
 ---
 
-## Slide 4 – IT Recommended Tech Stack
-*(not mandatory)*  
-- **CMS:** Drupal  
-- **Survey:** MS Form  
-- **Front-end:** VUE JS  
-- **Host:** inside or outside UNIDO  
-- **Domain:** under unido.org or not  
-- **Data storage:** –  
-- **Coding practice:** prefer project-based, engineering-oriented code structure rather than exploratory notebooks.  
+## Slide 3: Target Stakeholders
+
+- **UN System Organizations:** UNCTAD, ODET, ITU, UNDP, ITC, UNDCO
+- **Member States:** Previously identified partner countries
+- **Industry Associations:** GSMA, Global Digital Development Partnership
+- **Private Sector Partners:** IBM, Huawei, AIM Global Community
+- **Academic Institutions:** BIT, WU Vienna, Oxford University
+
+*Leveraging existing user networks from Oxford Insight: INCIT, World Economic Forum*
+
+> "Designed to serve the broader UN system and development community."
 
 ---
 
-## Slide 5 – IT Development Readiness Checklist
-- Confirmed indicators  
-- Confirmed data source for each indicator  
-- Confirmed prototype  
-- Business analysis based on #1, #2, and #3, with well-written User Stories (*Given… When… Then*)  
-- Clearly defined demo scope for GC  
-- Development timeline aligned with the GC deadline  
+## Slide 4: IT Recommended Technology Stack
+*(Not mandatory)*
+
+- **Content Management System:** Drupal
+- **Survey Platform:** Microsoft Forms
+- **Frontend Framework:** Vue.js
+- **Hosting:** UNIDO infrastructure or external cloud provider
+- **Domain:** unido.org subdomain (recommended)
+- **Data Storage:** To be determined by Implementation Partner
+- **Development Standards:** Production-ready, maintainable code architecture preferred over exploratory approaches
 
 ---
 
-## Slide 6 – Timeline
-- **IT implementation partner ready:** week of 13th–17th Oct.  
-- **UNIDO GC 2025:** 23–27 November 2025  
+## Slide 5: Development Readiness Checklist
+
+- Finalized and validated indicator framework
+- Confirmed data sources and availability for each indicator
+- Completed interactive prototype
+- Comprehensive business analysis with detailed User Stories (*Given… When… Then* format)
+- Defined demonstration scope for UNIDO General Conference 2025
+- Development timeline aligned with GC 2025 deadline
 
 ---
 
-## Slide 7 – Risk Highlight
-- Indicator not finalized and endorsed (who) & Data source unclear  
-  - 69 indicators are missing a data source  
-  - 3 indicators have known data sources but only in unstructured formats (not downloadable, in PDF)  
-  - 32 indicators are available in structured formats  
-- Prototype not started  
+## Slide 6: Project Timeline
+
+- **Implementation Partner Onboarding:** Week of 13–17 October 2024
+- **UNIDO General Conference 2025:** 23–27 November 2025
+
+*Development phase: ~13 months from partner onboarding to GC demonstration*
 
 ---
 
-## Slide 8 – References
-**UI references:**  
-- https://den.dco.org/  
-- https://digitaldevelopmentcompass.undp.org/  
-- https://www.itu.int/partner2connect/  
-- https://www.itu.int/net4/wsis/stocktaking  
+## Slide 7: Risk Highlight
 
-**Potential Integration:**  
-- https://www.unido.org/solutions  
-- https://aim.unido.org/  
+- **Indicator Framework:** Pending finalization and endorsement (who?)
+- **Data source validation:**
+  - 69 indicators require data source identification
+  - 3 indicators have data sources in unstructured formats (PDF only)
+  - 32 indicators have confirmed structured data sources
+- **Prototype Development:** Not yet initiated
 
-**AI readiness:**  
-- https://www.undp.org/digital/aila  
-- https://www.unesco.org/en/articles/unescos-pioneering-role-measuring-ai-readiness-spotlight-oxford-insights-ai-readiness-index-2023  
+**Critical Path:** Indicator finalization and prototype development are prerequisites for technical implementation
 
-**Indicators & Data Sources:**  
-- https://miro.com/app/board/uXjVJd09dIk=/ (pwd: 1nitialDigital0xfordbo4rdnotes)  
-- [Google Sheet](https://docs.google.com/spreadsheets/d/1Ha6KahnLVm5GLEEZoZY7aDodZgVVOwRTrHgL-Hv7jjQ/edit?gid=1777986104#gid=1777986104)  
+---
+
+## Slide 8: References
+
+### UI References
+- [Digital Economy Navigator (DCO)](https://den.dco.org/)
+- [UNDP Digital Development Compass](https://digitaldevelopmentcompass.undp.org/)
+- [ITU Partner2Connect](https://www.itu.int/partner2connect/)
+- [ITU WSIS Stocktaking](https://www.itu.int/net4/wsis/stocktaking)
+
+### Potential Integration
+- [UNIDO Solutions](https://www.unido.org/solutions)
+- [AIM Platform](https://aim.unido.org/)
+
+### AI Readiness
+- [UNDP AI Readiness Assessment](https://www.undp.org/digital/aila)
+- [UNESCO AI Readiness Index 2023](https://www.unesco.org/en/articles/unescos-pioneering-role-measuring-ai-readiness-spotlight-oxford-insights-ai-readiness-index-2023)
+
+### Oxford Insight Output
+- [Indicator Framework](https://miro.com/app/board/uXjVJd09dIk=/) *(pwd: 1nitialDigital0xfordbo4rdnotes)*
+- [Data Sources](https://docs.google.com/spreadsheets/d/1Ha6KahnLVm5GLEEZoZY7aDodZgVVOwRTrHgL-Hv7jjQ/edit?gid=1777986104#gid=1777986104)
+- [Figma Prototype](https://www.figma.com/design/NJUO2qlZWAWd7OlJoNeyi2/UNIDO-Digital-Economy-Navigator?node-id=0-1&t=jfK4w3NWPfNLJAOK-0)
