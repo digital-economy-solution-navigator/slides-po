@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Economy Navigator - Project Overview</title>
+    <link rel="stylesheet" href="presentation-styles.css">
+</head>
+<body>
+    <div class="presentation-container" id="presentation">
+        <!-- Keyboard Instructions -->
+        <div class="keyboard-hint">
+            Use ← → arrow keys or click buttons to navigate
+        </div>
+
+        <!-- Fullscreen Button -->
+        <button class="fullscreen-btn" onclick="toggleFullscreen()">Fullscreen</button>
+
+        <!-- Slide Indicators -->
+        <div class="slide-indicators" id="slideIndicators">
+            <!-- Will be populated by JavaScript -->
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="navigation">
+            <button class="nav-btn" id="prevBtn" onclick="previousSlide()">← Previous</button>
+            <div class="slide-counter" id="slideCounter">1 / 8</div>
+            <button class="nav-btn" id="nextBtn" onclick="nextSlide()">Next →</button>
+        </div>
+        
+        <!-- Slide 1: Project Overview -->
+        <div class="slide">
+            <div class="slide-title-center">
+                <h1 class="slide-title-main">Digital Economy Navigator</h1>
+                <h2 class="slide-title-sub">Project Overview</h2>
+            </div>
+        </div>
+
+        <!-- Slide 2: MVP Deliverables -->
+        <div class="slide">
+            <h1>MVP Deliverables</h1>
+            
+            <div class="content-box">
+                <ul class="content-list">
+                    <li><strong>Indicator framework</strong> (Responsible: Oxford team)</li>
+                    <li><strong>Clickable Prototype</strong> (Responsible: Oxford team)</li>
+                    <li><strong>Data Architecture & Management</strong></li>
+                    <li><strong>Web Based Platform Development</strong></li>
+                    <li><strong>AI chatbot: AI-Enhanced User Experience</strong>
+                        <ul class="content-list-nested">
+                            <li>A source-grounded, natural language conversational interface using RAG (Retrieval-Augmented Generation), etc.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="highlight-box">
+                <p class="highlight-text"><strong>Indicator framework enabler and outcome:</strong></p>
+                <p class="highlight-text">Supposed to be narrower and deeper than:</p>
+                <a href="https://digitaldevelopmentcompass.undp.org/country/NER" target="_blank" class="highlight-link">https://digitaldevelopmentcompass.undp.org/country/NER</a>
+            </div>
+        </div>
+
+        <!-- Slide 3: Target Users -->
+        <div class="slide">
+            <h1>Target Users</h1>
+            
+            <div class="content-box">
+                <ul class="content-list">
+                    <li><strong>IO's/UN:</strong> UNCTAD, ODET, ITU, UNDP, ITC, UNDCO</li>
+                    <li><strong>Member States:</strong> shared previously</li>
+                    <li><strong>Industry Associations:</strong> GSMA</li>
+                    <li><strong>Private sector:</strong> IBM, Huawei, AIM Global Community</li>
+                    <li><strong>Academic:</strong> BIT, WU Vienna, others</li>
+                </ul>
+            </div>
+            
+            <div class="info-box">
+                <p class="info-text">Leverage pre-existing user groups from OI: INCIT, WEF</p>
+            </div>
+            
+            <div class="quote-box">
+                <blockquote class="quote-text">It's supposed to be useful to the UN at large.</blockquote>
+            </div>
+        </div>
+
+        <!-- Slide 4: IT Recommended Tech Stack -->
+        <div class="slide">
+            <h1>IT Recommended Tech Stack</h1>
+            <h2 class="subtitle-italic">(not mandatory)</h2>
+            
+            <div class="content-box">
+                <ul class="content-list">
+                    <li><strong>CMS:</strong> Drupal</li>
+                    <li><strong>Survey:</strong> MS Form</li>
+                    <li><strong>Front-end:</strong> VUE JS</li>
+                    <li><strong>Host:</strong> inside or outside UNIDO</li>
+                    <li><strong>Domain:</strong> under unido.org or not</li>
+                    <li><strong>Data storage:</strong> –</li>
+                    <li><strong>Coding practice:</strong> prefer project-based, engineering-oriented code structure rather than exploratory notebooks.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 5: IT Development Readiness Checklist -->
+        <div class="slide">
+            <h1>IT Development Readiness Checklist</h1>
+            
+            <div class="content-box">
+                <ul class="content-list">
+                    <li>Confirmed indicators</li>
+                    <li>Confirmed data source for each indicator</li>
+                    <li>Confirmed prototype</li>
+                    <li>Business analysis based on #1, #2, and #3, with well-written User Stories (<em>Given… When… Then</em>)</li>
+                    <li>Clearly defined demo scope for GC</li>
+                    <li>Development timeline aligned with the GC deadline</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 6: Timeline -->
+        <div class="slide">
+            <h1>Timeline</h1>
+            
+            <div class="content-box">
+                <ul class="content-list">
+                    <li><strong>IT implementation partner ready:</strong> week of 13th–17th Oct.</li>
+                    <li><strong>UNIDO GC 2025:</strong> 23–27 November 2025</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 7: Risk Highlight -->
+        <div class="slide">
+            <h1>Risk Highlight</h1>
+            
+            <div class="content-box">
+                <ul class="content-list">
+                    <li>Indicator not finalized and endorsed (who) & Data source unclear
+                        <ul class="content-list-nested">
+                            <li>69 indicators are missing a data source</li>
+                            <li>3 indicators have known data sources but only in unstructured formats (not downloadable, in PDF)</li>
+                            <li>32 indicators are available in structured formats</li>
+                        </ul>
+                    </li>
+                    <li>Prototype not started</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 8: References -->
+        <div class="slide">
+            <h1>References</h1>
+            
+            <div class="content-box reference-section">
+                <h3>UI references:</h3>
+                <ul class="reference-list">
+                    <li><a href="https://den.dco.org/" target="_blank">https://den.dco.org/</a></li>
+                    <li><a href="https://digitaldevelopmentcompass.undp.org/" target="_blank">https://digitaldevelopmentcompass.undp.org/</a></li>
+                    <li><a href="https://www.itu.int/partner2connect/" target="_blank">https://www.itu.int/partner2connect/</a></li>
+                    <li><a href="https://www.itu.int/net4/wsis/stocktaking" target="_blank">https://www.itu.int/net4/wsis/stocktaking</a></li>
+                </ul>
+                
+                <h3>Potential Integration:</h3>
+                <ul class="reference-list">
+                    <li><a href="https://www.unido.org/solutions" target="_blank">https://www.unido.org/solutions</a></li>
+                    <li><a href="https://aim.unido.org/" target="_blank">https://aim.unido.org/</a></li>
+                </ul>
+                
+                <h3>AI readiness:</h3>
+                <ul class="reference-list">
+                    <li><a href="https://www.undp.org/digital/aila" target="_blank">https://www.undp.org/digital/aila</a></li>
+                    <li><a href="https://www.unesco.org/en/articles/unescos-pioneering-role-measuring-ai-readiness-spotlight-oxford-insights-ai-readiness-index-2023" target="_blank">https://www.unesco.org/en/articles/unescos-pioneering-role-measuring-ai-readiness-spotlight-oxford-insights-ai-readiness-index-2023</a></li>
+                </ul>
+                
+                <h3>Indicators & Data Sources:</h3>
+                <ul class="reference-list">
+                    <li><a href="https://miro.com/app/board/uXjVJd09dIk=/" target="_blank">https://miro.com/app/board/uXjVJd09dIk=/</a> (pwd: 1nitialDigital0xfordbo4rdnotes)</li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1Ha6KahnLVm5GLEEZoZY7aDodZgVVOwRTrHgL-Hv7jjQ/edit?gid=1777986104#gid=1777986104" target="_blank">Google Sheet</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="presentation-script.js"></script>
+</body>
+</html>
