@@ -2,20 +2,43 @@ let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
 const totalSlides = slides.length;
 
-// Initialize presentation
-function initPresentation() {
-    // Create slide indicators
-    const indicatorsContainer = document.getElementById('slideIndicators');
-    for (let i = 0; i < totalSlides; i++) {
-        const indicator = document.createElement('div');
-        indicator.className = 'indicator';
-        if (i === 0) indicator.classList.add('active');
-        indicator.onclick = () => goToSlide(i);
-        indicatorsContainer.appendChild(indicator);
-    }
-    
-    updateSlideDisplay();
-}
+        // Slide titles for indicators
+        const slideTitles = [
+            'Project Overview',
+            'MVP Deliverables',
+            'Target Users',
+            'Tech Stack',
+            'Readiness Checklist',
+            'Timeline',
+            'Risk Highlight',
+            'References'
+        ];
+
+        // Initialize presentation
+        function initPresentation() {
+            // Create slide indicators with titles
+            const indicatorsContainer = document.getElementById('slideIndicators');
+            for (let i = 0; i < totalSlides; i++) {
+                const indicatorWrapper = document.createElement('div');
+                indicatorWrapper.className = 'indicator-wrapper';
+                
+                const indicator = document.createElement('div');
+                indicator.className = 'indicator';
+                if (i === 0) indicator.classList.add('active');
+                indicator.onclick = () => goToSlide(i);
+                
+                const title = document.createElement('div');
+                title.className = 'indicator-title';
+                title.textContent = slideTitles[i];
+                title.onclick = () => goToSlide(i);
+                
+                indicatorWrapper.appendChild(indicator);
+                indicatorWrapper.appendChild(title);
+                indicatorsContainer.appendChild(indicatorWrapper);
+            }
+            
+            updateSlideDisplay();
+        }
 
 // Update slide display
 function updateSlideDisplay() {
@@ -28,11 +51,15 @@ function updateSlideDisplay() {
     // Update counter
     document.getElementById('slideCounter').textContent = `${currentSlide + 1} / ${totalSlides}`;
     
-    // Update indicators
-    const indicators = document.querySelectorAll('.indicator');
-    indicators.forEach((indicator, index) => {
-        indicator.classList.toggle('active', index === currentSlide);
-    });
+            // Update indicators
+            const indicators = document.querySelectorAll('.indicator');
+            const indicatorWrappers = document.querySelectorAll('.indicator-wrapper');
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === currentSlide);
+            });
+            indicatorWrappers.forEach((wrapper, index) => {
+                wrapper.classList.toggle('active', index === currentSlide);
+            });
     
     // Update navigation buttons
     document.getElementById('prevBtn').disabled = currentSlide === 0;
