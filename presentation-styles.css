@@ -1047,8 +1047,17 @@ body {
         font-size: 12px;
     }
     
+    /* Hide fullscreen and indicators on mobile */
+    .slide-indicators {
+        display: none;
+    }
+    
+    .fullscreen-btn {
+        display: none;
+    }
+    
     /* Touch improvements */
-    .nav-btn, .indicator-wrapper, .fullscreen-btn {
+    .nav-btn {
         min-height: 44px;
         min-width: 44px;
     }
