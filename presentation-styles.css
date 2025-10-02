@@ -1154,6 +1154,41 @@ body {
     }
 }
 
+/* Integration items styling */
+.integration-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border-left: 4px solid #4a90e2;
+}
+
+.integration-item:last-child {
+    margin-bottom: 0;
+}
+
+.integration-item h3 {
+    color: #4a90e2;
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.integration-item p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+.integration-item a {
+    color: #66b3ff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.integration-item a:hover {
+    text-decoration: underline;
+}
+
 @media print {
     .slide {
         page-break-after: always;

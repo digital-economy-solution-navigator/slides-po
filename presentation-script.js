@@ -6,12 +6,13 @@ const totalSlides = slides.length;
         const slideTitles = [
             'Project Overview',
             'MVP Deliverables',
-            'Target Users',
-            'Tech Stack',
+            'Target Stakeholders',
             'Readiness Checklist',
             'Timeline',
             'Risk Highlight',
-            'References'
+            'References',
+            'Future Integrations',
+            'Tech Stack'
         ];
 
         // Initialize presentation

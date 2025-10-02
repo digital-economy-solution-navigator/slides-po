@@ -6,7 +6,7 @@
 
 ---
 
-## Slide 2: Minimum Viable Product (MVP) Deliverables
+## Slide 2: MVP Deliverables
 
 ### Oxford Insight (Research Partner)
 - **Comprehensive Indicator Framework with Validated Data Sources**
@@ -34,20 +34,7 @@
 
 ---
 
-## Slide 4: IT Recommended Technology Stack
-*(Not mandatory)*
-
-- **Content Management System:** Drupal
-- **Survey Platform:** Microsoft Forms
-- **Frontend Framework:** Vue.js
-- **Hosting:** UNIDO infrastructure or external cloud provider
-- **Domain:** unido.org subdomain (recommended)
-- **Data Storage:** To be determined by Implementation Partner
-- **Development Standards:** Production-ready, maintainable code architecture preferred over exploratory approaches
-
----
-
-## Slide 5: Development Readiness Checklist
+## Slide 4: Development Readiness Checklist
 
 - Finalized and validated indicator framework
 - Confirmed data sources and availability for each indicator
@@ -58,7 +45,7 @@
 
 ---
 
-## Slide 6: Project Timeline
+## Slide 5: Project Timeline
 
 - **Implementation Partner Onboarding:** Week of 13–17 October 2024
 - **UNIDO General Conference 2025:** 23–27 November 2025
@@ -67,7 +54,7 @@
 
 ---
 
-## Slide 7: Risk Highlight
+## Slide 6: Risk Highlight
 
 - **Indicator Framework:** Pending finalization and endorsement (who?)
 - **Data source validation:**
@@ -80,17 +67,13 @@
 
 ---
 
-## Slide 8: References
+## Slide 7: References
 
 ### UI References
 - [Digital Economy Navigator (DCO)](https://den.dco.org/)
 - [UNDP Digital Development Compass](https://digitaldevelopmentcompass.undp.org/)
 - [ITU Partner2Connect](https://www.itu.int/partner2connect/)
 - [ITU WSIS Stocktaking](https://www.itu.int/net4/wsis/stocktaking)
-
-### Potential Integration
-- [UNIDO Solutions](https://www.unido.org/solutions)
-- [AIM Platform](https://aim.unido.org/)
 
 ### AI Readiness
 - [UNDP AI Readiness Assessment](https://www.undp.org/digital/aila)
@@ -100,3 +83,31 @@
 - [Indicator Framework](https://miro.com/app/board/uXjVJd09dIk=/) *(pwd: 1nitialDigital0xfordbo4rdnotes)*
 - [Data Sources](https://docs.google.com/spreadsheets/d/1Ha6KahnLVm5GLEEZoZY7aDodZgVVOwRTrHgL-Hv7jjQ/edit?gid=1777986104#gid=1777986104)
 - [Figma Prototype](https://www.figma.com/design/NJUO2qlZWAWd7OlJoNeyi2/UNIDO-Digital-Economy-Navigator?node-id=0-1&t=jfK4w3NWPfNLJAOK-0)
+
+---
+
+## Slide 8: Future Integrations
+
+### UNIDO Solutions Platform (USP)
+**Core function:** Showcase and scale proven, replicable solutions for sustainable industrial development.  
+[https://www.unido.org/solutions](https://www.unido.org/solutions)
+
+### AIM Global (AI for Industry and Manufacturing)
+**Core function:** Community hub and matchmaking for AI in manufacturing.  
+[https://aim.unido.org/](https://aim.unido.org/)
+
+### Internal CRM
+**Core function:** Manage UNIDO's accounts, contacts, and partnerships data internally.
+
+---
+
+## Slide 9: IT Recommended Technology Stack
+*(Not mandatory)*
+
+- **Content Management System:** Drupal
+- **Survey Platform:** Microsoft Forms
+- **Frontend Framework:** Vue.js
+- **Hosting:** UNIDO infrastructure or external cloud provider
+- **Domain:** unido.org subdomain (recommended)
+- **Data Storage:** To be determined by Implementation Partner
+- **Development Standards:** Production-ready, maintainable code architecture preferred over exploratory approaches
